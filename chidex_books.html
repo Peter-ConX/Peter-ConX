@@ -3,41 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catalog - Chidex Books</title>
+    <title>Chidex Books</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Catalog</h1>
+        <div class="logo-container">
+            <img src="logo.png" alt="Chidex Books Logo">
+        </div>
         <nav>
-            <a href="index.html">Home</a> |
-            <a href="about.html">About</a> |
-            <a href="contact.html">Contact</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
-      <!-- Search Bar -->
-    <section>
-        <input type="text" id="search" placeholder="Search for books..." onkeyup="searchBooks()">
-    </section>
-
-    <!-- Books List -->
-    <section>
-        <h2>Available Books</h2>
-        <div class="book-list">
-            <div class="book">
-                <img src= "C:\Users\OKAFOR PETER\PycharmProjects\Peter-ConX\Book yourself solid.jpg" alt="Book yourself solid">
-                <p><b>Book yourself solid</b> - Michael Port</p>
-            </div>
-            <div class="book">
-                <img src=" C:\Users\OKAFOR PETER\PycharmProjects\Peter-ConX\Thinking in Systems.jpg" alt="Thinking in Systems">
-                <p><b>Thinking in Systems</b> -Donella H. Meadows</p>
-            </div>
-            <div class="book">
-                <img src="C:\Users\OKAFOR PETER\PycharmProjects\Peter-ConX\Zero to One.jpg" alt="Zero to One">
-                <p><b>Zero to One</b> - Peter Thiel</p>
+    <main>
+        <div class="hero-section">
+            <div class="overlay"></div>
+            <div class="hero-text">
+                <h1>Welcome to Chidex Library</h1>
+                <p>Only life-changing books are found here</p>
+                <input type="text" id="search" placeholder="Search for books...">
             </div>
         </div>
-    </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Chidex Books. All rights reserved.</p>
+    </footer>
 </body>
 </html>
