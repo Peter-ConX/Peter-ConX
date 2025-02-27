@@ -1,6 +1,16 @@
+/* Search Bar */
+#search {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Book List */
 .book-list {
     display: flex;
-    gap: 10px;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .book {
@@ -12,4 +22,9 @@
     height: auto;
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.book img:hover {
+    transform: scale(1.1);
 }
