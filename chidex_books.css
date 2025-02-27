@@ -60,3 +60,17 @@
     background-color: #0056b3;
     transform: scale(1.05);
 }
+
+/* Book Ratings */
+.rating {
+    font-size: 18px;
+    color: #ffcc00; /* Gold stars */
+}
+
+/* Reviews */
+.review {
+    font-style: italic;
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
